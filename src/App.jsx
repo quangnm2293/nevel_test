@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HotGame from "./components/HotGame";
 import Layout from "./components/Layout";
-import LoadMore from "./components/Loadmore";
+import LoadMore from "./components/LoadMore";
 import SlideComponent from "./components/Slide";
 import Tabs from "./components/Tabs";
 import { useState, useEffect } from "react";
