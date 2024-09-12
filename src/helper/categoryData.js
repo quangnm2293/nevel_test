@@ -8,7 +8,7 @@ import music from "../assets/icons/Music.svg";
 import pokerSvg from "../assets/icons/poker.svg";
 import home from "../assets/icons/Home.svg?react";
 import allGames from "../assets/icons/AllGame.svg?react";
-import timeline from "../assets/icons/Timeline.svg?react";
+import timeline from "../assets/icons/TimeLine.svg?react";
 
 export const games = [
   { src: game1, alt: "game1" },
