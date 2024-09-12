@@ -7,7 +7,7 @@ const Header = () => {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <header className="flex justify-between p-4 lg:p-0 bg-[url('public/image_mobile.png')] lg:bg-[url('public/Background_desk.png')] h-[420px] lg:h-[576px] bg-cover bg-no-repeat">
+    <header className="flex justify-between p-4 lg:p-0 bg-chickyRun lg:bg-soccer h-[420px] lg:h-[576px] bg-cover bg-no-repeat">
       <div className="h-[90px] bg-gradient-to-t from-black/50 to-black w-full hidden lg:flex items-center">
         <div className="max-w-[1240px] mx-auto w-full flex items-center justify-between h-full">
           <WhiteLogo className="w-[108px] h-[64px] hidden lg:block fill-white" />

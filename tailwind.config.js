@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        chickyRun: "url('src/assets/images/Image.png')",
-        soccer: "url('src/assets/images/Background_desk.png')",
+        chickyRun: "url('/image_mobile.png')",
+        soccer: "url('/Background_desk.png')",
       },
     },
     fontFamily: {
