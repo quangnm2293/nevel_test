@@ -21,7 +21,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="font-pingFang h-screen overflow-scroll">
+    <div className="font-pingFang">
       <Header />
       <Layout isSideBar={isDesktop}>
         <Tabs />
