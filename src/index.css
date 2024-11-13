@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "PingFang";
+  src: url("./assets/fonts//PingFang-SC-Regular.ttf");
+}
+
+@layer components {
+  .text-unactive {
+    @apply text-[10px] font-semibold font-pingFang;
+  }
+  .tab-container {
+    @apply flex flex-col justify-center items-center text-[#cccccc] gap-[6px] flex-1 border-b fill-[#cccccc];
+  }
+  .tab-container-active {
+    @apply tab-container border-b-black border-b-2 text-black fill-black;
+  }
+  .indicator-slide {
+    @apply mr-[13px] self-center w-2 h-2 bg-[#9B9B9B]/50 rounded-lg [&.active]:w-[14px]
+    [&.active]:bg-[#9B9B9B] [&.active]:h-[14px] [&.active]:ring-1 [&.active]:ring-[#9B9B9B]
+     [&.active]:border-[2px] [&.active]:border-white;
+  }
+  .indicator-slide-image {
+    @apply mr-[13px] self-center w-2 h-2 bg-[#9B9B9B]/50 rounded-lg [&.active]:w-[14px]
+    [&.active]:bg-[#9B9B9B] [&.active]:h-[14px] [&.active]:ring-1 [&.active]:ring-[#9B9B9B]
+     [&.active]:border-[2px] [&.active]:border-white cursor-pointer;
+  }
+  .text-active {
+    @apply border-b [&>p]:text-white;
+  }
+  .text-sidebar-active {
+    @apply [&>p]:text-black [&>svg]:fill-black;
+  }
+}
